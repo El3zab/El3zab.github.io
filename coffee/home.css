@@ -1,0 +1,173 @@
+body{
+    text-transform: capitalize;
+    background-color: #004b46;
+    font-size: 1.5vw;
+    font-family: 'Cairo', sans-serif;
+}
+header {
+    background-color:#cab092 ;
+}
+h1{
+    color:#04322c;
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: unset;
+}
+header p{
+    text-align: center;
+    margin-top: unset;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Yellowtail', cursive;
+    color: rgb(34 35 31) ;
+}
+nav{
+    margin-left: 40%;
+    border-radius: 5px;
+}
+h2{
+    text-transform: uppercase;
+    color: #a66765 ;
+    
+}
+nav h2 {
+    display: inline-block;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(218, 206, 206);
+    margin-left: 30px;
+}
+a:hover{
+    color:#a66765 ;
+}
+.header{
+    background-image: url(coffee.jpg);
+    background-repeat: no-repeat;
+    height: 591px;
+}
+.body{
+    font-size: 00.5em;
+    height: 800px;
+    position: relative;
+    margin-left: 2%;
+}
+h3{
+    color: #a66765;
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Yellowtail', cursive;
+}
+.one,.two,.three,.four,.five{
+    width: 15%;
+    background-color: rgb(34 35 31);
+    color: whitesmoke;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 200px;
+}
+.one::before,.two::before,.three::before,.four::before,.five::before{
+    content: "";
+    border-left:5px solid #a66765 ;
+}
+.one{
+    position: absolute;
+    left: 4%;
+}
+.two{
+    position: absolute;
+    top: 70px;
+    left: 23%;
+}
+.three{
+    position: absolute;
+    left:42%;
+}
+.four{
+    position: absolute;
+    left:60%;
+    top: 70px;
+}
+.five{
+    position: absolute;
+    left:78%;
+}
+.under{
+    background-color: #04322c;
+    padding: 10px;
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.under_{
+    background-color: #04322c;
+    padding: 20px;
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.pos{
+    color: whitesmoke;
+    position: absolute;
+    left: 55%;
+    width: 20%;
+}
+.loc{
+    margin-left:10%;
+    width: 40%;
+    height: 500px;
+}
+.word{
+    color: whitesmoke;
+    position: absolute;
+    left: 10%;
+    width: 35%;
+}
+.pic{
+    background-image: url(pon.png);
+    background-repeat: no-repeat;
+    margin-left:50%;
+    width: 50%;
+    height: 660px;
+}
+footer{
+    background-color: rgb(34 35 31);
+    color: whitesmoke;
+    border-radius: 10px;
+    font-size: 0.5em;
+    padding: 10px;
+    height: 250px;
+    position:relative;
+}
+footer div{
+    width: 20%;
+}
+.other{
+    position: absolute;
+    left: 10%;
+}
+.contact{
+    position: absolute;
+    left: 40%;
+}
+.about{
+    position: absolute;
+    left: 70%;
+    margin-top:30px;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(218, 206, 206);
+}
+footer a:hover{
+    color:#a66765 ;
+}
+h4{
+    color: #a66765;
+}
+.copy{
+
+    position:absolute;
+    left:35%;
+    bottom:20px;
+}
